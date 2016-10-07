@@ -19,6 +19,7 @@ import com.amazon.speech.ui.Reprompt;
 import com.amazon.speech.ui.SimpleCard;
 
 /**
+ * Very simple Alexa Skill which can run on AWS Lambda
  * Created by davidq on 07/10/2016.
  */
 public class MAssistantSpeechlet implements Speechlet {
@@ -136,7 +137,7 @@ public class MAssistantSpeechlet implements Speechlet {
     private SpeechletResponse getWhoIsTheBestResponse() {
         String speechText = "Who is the best? Let's see... Today it is ";
 
-        String names[] ={"Stuart","John","David","Tom"};
+        String names[] ={"Stuart","John","David","Tom","Geoff","Sally"};
         Random random = new Random();
 
         speechText = speechText + names[random.nextInt(names.length)];
@@ -158,7 +159,8 @@ public class MAssistantSpeechlet implements Speechlet {
      * @return SpeechletResponse spoken and visual response for the given intent
      */
     private SpeechletResponse getHelpResponse() {
-        String speechText = "This skill will allow you to find out where your closest store is. Try saying find my closest store";
+        String speechText = "This skill will allow you to find out where your closest store is. Try saying find my closest store or "
+                + "find the closest store to your location";
 
         // Create the Simple card content.
         SimpleCard card = new SimpleCard();
