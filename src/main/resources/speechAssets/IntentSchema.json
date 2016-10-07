@@ -1,0 +1,104 @@
+{
+  "intents": [
+
+    {
+      "intent": "StoreIntent",
+      "slots": [ ]
+    },
+
+    {
+      "intent": "StoreIntent_ByLocation",
+      "slots": [
+        {
+          "name": "location",
+          "type": "AMAZON.GB_CITY"
+        }
+      ]
+    },
+
+    {
+      "intent": "BestIntent",
+      "slots": [ ]
+    },
+
+    {
+      "intent": "AccountIntent",
+      "slots": [ ]
+    },
+
+    {
+      "intent": "OffersIntent",
+      "slots": [ ]
+    },
+
+
+    {
+      "intent": "RecipesIntent_Start",
+      "slots": [ ]
+    },
+
+
+    {
+      "intent": "RecipesIntent_MealType",
+      "slots": [
+        {
+          "name": "MealType",
+          "type": "CUSTOM_MEALTYPE"
+        }
+      ]
+    },
+
+    {
+      "intent": "RecipesIntent_Method",
+      "slots": [
+        {
+          "name": "Method",
+          "type": "CUSTOM_METHOD"
+        }
+      ]
+    },
+
+    {
+      "intent": "RecipesIntent_Recipe",
+      "slots": [
+        {
+          "name": "Budget",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "Cuisine",
+          "type": "CUSTOM_CUISINE"
+        }
+      ]
+    },
+
+    {
+      "intent": "RecipesIntent_RecipeAccepted",
+      "slots": [ ]
+    },
+
+    {
+      "intent": "RecipesIntent_Next",
+      "slots": [ ]
+    },
+
+    {
+      "intent": "RecipesIntent_RecipeRejected",
+      "slots": [ ]
+    },
+
+
+    {
+      "intent": "AMAZON.CancelIntent",
+      "slots": [ ]
+    },
+    {
+      "intent": "AMAZON.StopIntent",
+      "slots": [ ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent",
+      "slots": [ ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+StoreIntent find my closest store
+StoreIntent whats my closest store
+
+StoreIntent_ByLocation find store closest to {Location}
+StoreIntent_ByLocation find store near {location}
+
+BestIntent who is the best
+
+AccountIntent account information
+AccountIntent my account
+AccountIntent my account information
+AccountIntent profile information
+AccountIntent my profile information
+AccountIntent account status
+AccountIntent my account status
+AccountIntent points
+AccountIntent my points
+
+OffersIntent todays offers
+OffersIntent current offers
+OffersIntent offers
+OffersIntent top products
+
+RecipesIntent_Start Recipes by Morrisons
+RecipesIntent_Start Recipe
+RecipesIntent_Start Recipes
+
+RecipesIntent_MealType {MealType}
+RecipesIntent_MealType make it {MealType}
+
+RecipesIntent_Method {Method}
+RecipesIntent_Method by {Method}
+
+RecipesIntent_Recipe {Budget} pounds
+RecipesIntent_Recipe my budget is {Budget} pounds
+RecipesIntent_Recipe my limit is {Budget} pounds
+RecipesIntent_Recipe I have {Budget} pounds
+RecipesIntent_Recipe {Cuisine}
+RecipesIntent_Recipe {Cuisine} cuisine
+RecipesIntent_Recipe {Cuisine} food
+
+RecipesIntent_RecipeAccepted good choice
+RecipesIntent_RecipeAccepted a good choice
+RecipesIntent_RecipeAccepted it is a good choice
+RecipesIntent_RecipeAccepted good
+RecipesIntent_RecipeAccepted it is good
+
+RecipesIntent_RecipeRejected something else
+RecipesIntent_RecipeRejected get me something else
+RecipesIntent_RecipeRejected another one
+
+RecipesIntent_Next next
+RecipesIntent_Next next one
+
+AMAZON.CancelIntent cancel now
+AMAZON.StopIntent stop now
+AMAZON.StopIntent that's all
+AMAZON.StopIntent that is all
+
+AMAZON.HelpIntent help me
